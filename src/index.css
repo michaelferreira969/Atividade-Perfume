@@ -1,0 +1,61 @@
+body {
+  font-size: 1rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.preco {
+  color: green;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.preco-mutted {
+  font-size: .7rem;
+  color: gray;
+  text-decoration: dashed;
+}
+
+.card button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*Mobile*/
+@media (max-width: 768px) {
+  .card {
+    max-width: 375px;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+  .card {
+    max-width: 600px;
+  }
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+  .card {
+    max-width: 1440px;
+  }
+}
